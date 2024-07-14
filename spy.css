@@ -161,3 +161,33 @@ body {
 .video-content iframe {
   border-radius: 20px;
 }
+.main3 {
+  display: flex;
+  margin: 0%;
+  flex-direction: column;
+  background-image: url(./pic2.webp);
+  min-height: 100vh;
+  min-width: 100vh;
+  max-height: 200vh;
+  align-items: center;
+  background-size: cover;
+}
+.white2 {
+  font-size: 65px;
+  color: #fff;
+  font-family: cursive;
+}
+.white3 {
+  color: #fff;
+  font-size: 50px;
+  font-variant: petite-caps;
+}
+.video-content2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.video-content2 > iframe {
+  border-radius: 20px;
+}
