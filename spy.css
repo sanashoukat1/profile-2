@@ -226,19 +226,77 @@ body {
 .video-content3 iframe {
   border-radius: 20px;
 }
-
-.main5 div:not(:first-child) {
-  width: 30%;
+.main5 .section3 {
+  width: 26%;
 }
 .main5 .section1 {
   width: 40%;
 }
-
-.section1 img {
-  width: 450px;
-  padding: 24px;
+.main5 .section2 {
+  width: 28%;
 }
 .section1 {
   display: flex;
   align-items: center;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-top: 30px;
+}
+.write {
+  color: #fff;
+  display: contents;
+}
+.main5 .section2 .setting img {
+  padding-top: 40px;
+}
+.section2 .white5 {
+  font-size: 20px;
+}
+.white6 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 61px;
+  font-family: inherit;
+}
+.white7 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: inherit;
+}
+.write4 {
+  color: #fff;
+  margin: 10px;
+  font-size: 20px;
+  font-family: cursive;
+}
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 10px;
+}
+.white8 {
+  color: #fff;
+  font-size: 19px;
+}
+.white9 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+}
+.section1 img {
+  height: 418px;
+}
+.white10 {
+  color: #fff;
+}
+.write8 .white10 {
+  font-size: 20px;
+  font-family: cursive;
 }
