@@ -6,56 +6,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: radial-gradient(
-      circle at 74.11507924397786% 94.03727213541667%,
-      #222323 0%,
-      17.5%,
-      rgba(34, 35, 35, 0) 35%
-    ),
-    radial-gradient(
-      circle at 58.97912343343099% 66.87540690104167%,
-      rgba(22, 87, 217, 0.61) 0%,
-      14.7%,
-      rgba(22, 87, 217, 0) 30%
-    ),
-    radial-gradient(
-      circle at 0.5939420064290365% 57.086690266927086%,
-      rgba(22, 87, 217, 0.38) 0%,
-      7.9799999999999995%,
-      rgba(22, 87, 217, 0) 14%
-    ),
-    radial-gradient(
-      circle at 13.200607299804688% 9.217885335286459%,
-      rgba(162, 56, 255, 0.24) 0%,
-      16.5%,
-      rgba(162, 56, 255, 0) 55%
-    ),
-    radial-gradient(
-      circle at 100% 37.314453125%,
-      rgba(22, 87, 217, 0.51) 0%,
-      9.36%,
-      rgba(22, 87, 217, 0) 18%
-    ),
-    radial-gradient(
-      circle at 78.61783345540364% 57.83340454101562%,
-      rgba(162, 56, 255, 0.65) 0%,
-      17.5%,
-      rgba(162, 56, 255, 0) 35%
-    ),
-    radial-gradient(
-      circle at 1.8846766153971355% 94.78581746419272%,
-      #222323 0%,
-      8.6%,
-      rgba(34, 35, 35, 0) 20%
-    ),
-    radial-gradient(
-      circle at 48.9013671875% 49.521484375%,
-      #000000 0%,
-      100%,
-      rgba(0, 0, 0, 0) 100%
-    );
+  background-image: url(./images/goku4.gif);
   min-width: 100vh;
   min-height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 .sub_div_1 {
@@ -92,58 +47,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: radial-gradient(
-      circle at 74.11507924397786% 94.03727213541667%,
-      #222323 0%,
-      17.5%,
-      rgba(34, 35, 35, 0) 35%
-    ),
-    radial-gradient(
-      circle at 58.97912343343099% 66.87540690104167%,
-      rgba(22, 87, 217, 0.61) 0%,
-      14.7%,
-      rgba(22, 87, 217, 0) 30%
-    ),
-    radial-gradient(
-      circle at 0.5939420064290365% 57.086690266927086%,
-      rgba(22, 87, 217, 0.38) 0%,
-      7.9799999999999995%,
-      rgba(22, 87, 217, 0) 14%
-    ),
-    radial-gradient(
-      circle at 13.200607299804688% 9.217885335286459%,
-      rgba(162, 56, 255, 0.24) 0%,
-      16.5%,
-      rgba(162, 56, 255, 0) 55%
-    ),
-    radial-gradient(
-      circle at 100% 37.314453125%,
-      rgba(22, 87, 217, 0.51) 0%,
-      9.36%,
-      rgba(22, 87, 217, 0) 18%
-    ),
-    radial-gradient(
-      circle at 78.61783345540364% 57.83340454101562%,
-      rgba(162, 56, 255, 0.65) 0%,
-      17.5%,
-      rgba(162, 56, 255, 0) 35%
-    ),
-    radial-gradient(
-      circle at 1.8846766153971355% 94.78581746419272%,
-      #222323 0%,
-      8.6%,
-      rgba(34, 35, 35, 0) 20%
-    ),
-    radial-gradient(
-      circle at 48.9013671875% 49.521484375%,
-      #000000 0%,
-      100%,
-      rgba(0, 0, 0, 0) 100%
-    );
-  min-width: 100vh;
-  min-height: 100vh;
-  max-height: 100vh;
+  background-image: url(./images/goku2.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 102vh;
 }
+
 .white {
   color: #fff;
   font-size: 65px;
@@ -165,12 +75,13 @@ body {
   display: flex;
   margin: 0%;
   flex-direction: column;
-  background-image: url(./images/pic3.png);
+  background-image: url(./images/goku3.gif);
   min-height: 100vh;
   min-width: 100vh;
   max-height: 400vh;
   background-size: cover;
   align-items: center;
+  background-position: center;
 }
 .white2 {
   font-size: 65px;
@@ -199,16 +110,22 @@ body {
 }
 .main5 {
   display: flex;
-  background-image: url(./images/pic3.png);
+  background-image: url(./images/goku.gif);
   min-height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 .main4 {
   flex-direction: column;
   display: flex;
-  background-image: url(./images/pic3.png);
   min-height: 100vh;
   align-items: center;
+  background-image: url(./images/goku5.jpg);
+  min-width: 100vh;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .white4 {
@@ -280,7 +197,7 @@ body {
   align-items: center;
   gap: 15px;
   margin: 10px;
-  padding-top: 57px;
+  padding-top: 53px;
 }
 .white8 {
   color: #fff;
@@ -292,7 +209,7 @@ body {
   font-size: 60px;
 }
 .section1 img {
-  height: 418px;
+  height: 281px;
 }
 .white10 {
   color: #fff;
